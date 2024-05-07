@@ -1,0 +1,207 @@
+{
+  "id": "9af4ae93-60eb-4d1e-8638-ea57774b04e9",
+  "version": "2.0",
+  "name": "login_test",
+  "url": "http://localhost:5173",
+  "tests": [{
+    "id": "eb99d84d-99f5-4dab-99a7-8a7a778a0679",
+    "name": "login_test",
+    "commands": [{
+      "id": "bb415494-5674-4013-8bdc-fd637c0e0b08",
+      "comment": "",
+      "command": "open",
+      "target": "/game",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83fbad98-bb9c-4a3d-a0e2-a18a4601b989",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2279d1d-4fb0-4d69-838d-3f55c834b28e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-secondary",
+      "targets": [
+        ["css=.btn-secondary", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/form/a[3]/button", "xpath:idRelative"],
+        ["xpath=//a[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bejelentkezés')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "003f450d-2ab6-4e9e-8b50-75074c999118",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1ff5c68-e902-4c90-9501-b6bdb41d1821",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cica@blathy.info"
+    }, {
+      "id": "d6ca65ce-949c-4f1e-8402-b9c35fa2caae",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa9833d-2aa8-47b5-bff0-b12ac2bf598d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "7da29bb7-539c-4d4a-a6af-23a848cb3502",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-color",
+      "targets": [
+        ["css=.btn-color", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92fa5469-1123-41ce-a20c-a2dc7c894637",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-color",
+      "targets": [
+        ["css=.btn-color", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c20815-0839-4d3c-b869-7d4cff768000",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-color",
+      "targets": [
+        ["css=.btn-color", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f2ce36-9103-4a50-8203-7dd0c18d12ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adatbázis",
+      "targets": [
+        ["linkText=Adatbázis", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Adatbázis')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Adatbázis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63aeefaa-1b37-42ad-9ac6-f72a59c343fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Adatbázis",
+      "targets": [
+        ["linkText=Adatbázis", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Adatbázis')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Adatbázis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73422f0b-0310-4d81-8271-38acad4425cd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Adatbázis",
+      "targets": [
+        ["linkText=Adatbázis", "linkText"],
+        ["css=.router-link-active", "css:finder"],
+        ["xpath=//a[contains(text(),'Adatbázis')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Adatbázis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "976d8ac4-6d40-4272-8114-665dd2b9fd94",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .btn-danger",
+      "targets": [
+        ["css=a > .btn-danger", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/form/a[2]/button", "xpath:idRelative"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kilépés')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adc68d42-a14a-48c8-aa54-4f953326bba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#app > div",
+      "targets": [
+        ["css=#app > div", "css:finder"],
+        ["xpath=//div[@id='app']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "55de1a46-0a69-4c7b-8797-9120a632f905",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb99d84d-99f5-4dab-99a7-8a7a778a0679"]
+  }],
+  "urls": ["http://localhost:5173/"],
+  "plugins": []
+}
